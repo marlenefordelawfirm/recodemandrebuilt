@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mock</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{ --bg:#ECEFF3; --card:#fff; --text:#111; }
+    *{box-sizing:border-box}
+    body{ margin:0; padding:32px; font-family:Barlow,system-ui,Arial; background:var(--bg); color:var(--text); }
+    .card{ background:var(--card); border-radius:12px; padding:24px; max-width:800px; margin:0 auto; box-shadow:0 10px 20px rgba(0,0,0,.08); }
+    h1{ margin-top:0; }
+    .url{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; background:#f3f4f6; padding:8px 10px; border-radius:6px; overflow:auto; }
+    .row{ display:flex; gap:12px; margin-top:16px; }
+    a.button{ display:inline-block; background:#2E86DE; color:#fff; padding:10px 14px; border-radius:8px; text-decoration:none; font-weight:600; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 id="title">Mock</h1>
+    <p>This is a mocked redirect page. In production this would open the external destination. The link is shown below so you can verify.</p>
+    <div class="url" id="url"></div>
+    <div class="row">
+      <a class="button" id="open" href="#" target="_blank" rel="noopener">Open Anyway</a>
+      <a class="button" href="../index.html">Back to Portal</a>
+    </div>
+  </div>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const target = params.get('target') || '#';
+    document.getElementById('url').textContent = target;
+    document.getElementById('open').href = target;
+    const titleMap = { zoom:'Zoom Webinar', booking:'Booking Page', canva:'Canva Template', ads:'Ads Manager' };
+    const page = Object.keys(titleMap).find(k => location.pathname.includes(k));
+    document.getElementById('title').textContent = 'Mock: ' + (titleMap[page] || 'Link');
+  </script>
+</body>
+</html>

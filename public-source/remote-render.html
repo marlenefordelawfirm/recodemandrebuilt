@@ -1,0 +1,557 @@
+<!DOCTYPE html><html lang="en" class="overflow-y-auto"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title inertia="">Set Webinar Date - RECO Demand Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="https://connect.recodemand.com/favicon.png">
+    <link rel="preload" as="style" href="https://connect.recodemand.com/build/assets/vuetify-3huG7ezH.css"><link rel="preload" as="style" href="https://connect.recodemand.com/build/assets/base-B0cSg007.css"><link rel="preload" as="style" href="https://connect.recodemand.com/build/assets/el-input-zBs__tzC.css"><link rel="preload" as="style" href="https://connect.recodemand.com/build/assets/VMain-DPi8nr62.css"><link rel="preload" as="style" href="https://connect.recodemand.com/build/assets/VOverlay-BgMdBN1t.css"><link rel="preload" as="style" href="https://connect.recodemand.com/build/assets/VInput-DD4CFilG.css"><link rel="preload" as="style" href="https://connect.recodemand.com/build/assets/VTextField-BT9RYTtl.css"><link rel="preload" as="style" href="https://connect.recodemand.com/build/assets/VLabel-BvKaKg7Y.css"><link rel="preload" as="style" href="https://connect.recodemand.com/build/assets/Index-Bx_M9EjT.css"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/appConnect-DIPfJu8Q.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/vuetify-DKsyd03J.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/Index-BgBL-7ok.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/base-31pIvb0r.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/el-input-cc1FOD1t.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/datetime-BDx6lZXm.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/index-B8lSeG41.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/logo2-CHci2I_C.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/VMain-CCpDzobx.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/VOverlay-BWuwDYuX.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/forwardRefs-D_qxKlPu.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/VInput-Bl9HX_TG.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/VForm-B8br069T.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/VTextField-BwFe3XRg.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/ssrBoot-C1hj3TLE.js"><link rel="modulepreload" href="https://connect.recodemand.com/build/assets/VLabel-B5EyvY6v.js"><link rel="stylesheet" href="https://connect.recodemand.com/build/assets/vuetify-3huG7ezH.css"><link rel="stylesheet" href="https://connect.recodemand.com/build/assets/base-B0cSg007.css"><link rel="stylesheet" href="https://connect.recodemand.com/build/assets/el-input-zBs__tzC.css"><link rel="stylesheet" href="https://connect.recodemand.com/build/assets/VMain-DPi8nr62.css"><link rel="stylesheet" href="https://connect.recodemand.com/build/assets/VOverlay-BgMdBN1t.css"><link rel="stylesheet" href="https://connect.recodemand.com/build/assets/VInput-DD4CFilG.css"><link rel="stylesheet" href="https://connect.recodemand.com/build/assets/VTextField-BT9RYTtl.css"><link rel="stylesheet" href="https://connect.recodemand.com/build/assets/VLabel-BvKaKg7Y.css"><link rel="stylesheet" href="https://connect.recodemand.com/build/assets/Index-Bx_M9EjT.css"><script type="module" src="https://connect.recodemand.com/build/assets/appConnect-DIPfJu8Q.js"></script><script type="module" src="https://connect.recodemand.com/build/assets/Index-BgBL-7ok.js"></script>    <link rel="modulepreload" as="script" crossorigin="" href="/build/assets/Index-BgBL-7ok.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/base-31pIvb0r.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/vuetify-DKsyd03J.js"><link rel="stylesheet" crossorigin="" href="/build/assets/vuetify-3huG7ezH.css"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/index-B8lSeG41.js"><link rel="stylesheet" crossorigin="" href="/build/assets/base-B0cSg007.css"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/el-input-cc1FOD1t.js"><link rel="stylesheet" crossorigin="" href="/build/assets/el-input-zBs__tzC.css"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/datetime-BDx6lZXm.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/logo2-CHci2I_C.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/VMain-CCpDzobx.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/VInput-Bl9HX_TG.js"><link rel="stylesheet" crossorigin="" href="/build/assets/VInput-DD4CFilG.css"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/ssrBoot-C1hj3TLE.js"><link rel="stylesheet" crossorigin="" href="/build/assets/VMain-DPi8nr62.css"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/VOverlay-BWuwDYuX.js"><link rel="stylesheet" crossorigin="" href="/build/assets/VOverlay-BgMdBN1t.css"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/forwardRefs-D_qxKlPu.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/VForm-B8br069T.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/VTextField-BwFe3XRg.js"><link rel="modulepreload" as="script" crossorigin="" href="/build/assets/VLabel-B5EyvY6v.js"><link rel="stylesheet" crossorigin="" href="/build/assets/VLabel-BvKaKg7Y.css"><link rel="stylesheet" crossorigin="" href="/build/assets/VTextField-BT9RYTtl.css"><link rel="stylesheet" crossorigin="" href="/build/assets/Index-Bx_M9EjT.css"><style id="vuetify-theme-stylesheet" type="text/css">:root {
+      --v-theme-background: 245,245,245;
+      --v-theme-background-overlay-multiplier: 1;
+      --v-theme-surface: 245,245,245;
+      --v-theme-surface-overlay-multiplier: 1;
+      --v-theme-surface-bright: 255,255,255;
+      --v-theme-surface-bright-overlay-multiplier: 1;
+      --v-theme-surface-light: 238,238,238;
+      --v-theme-surface-light-overlay-multiplier: 1;
+      --v-theme-surface-variant: 66,66,66;
+      --v-theme-surface-variant-overlay-multiplier: 2;
+      --v-theme-on-surface-variant: 238,238,238;
+      --v-theme-primary: 41,112,69;
+      --v-theme-primary-overlay-multiplier: 2;
+      --v-theme-primary-darken-1: 138,1,2;
+      --v-theme-primary-darken-1-overlay-multiplier: 2;
+      --v-theme-secondary: 0,0,0;
+      --v-theme-secondary-overlay-multiplier: 2;
+      --v-theme-secondary-darken-1: 62,62,62;
+      --v-theme-secondary-darken-1-overlay-multiplier: 2;
+      --v-theme-error: 255,82,82;
+      --v-theme-error-overlay-multiplier: 1;
+      --v-theme-info: 33,150,243;
+      --v-theme-info-overlay-multiplier: 1;
+      --v-theme-success: 76,175,80;
+      --v-theme-success-overlay-multiplier: 1;
+      --v-theme-warning: 255,193,7;
+      --v-theme-warning-overlay-multiplier: 1;
+      --v-theme-on-background: 0,0,0;
+      --v-theme-on-surface: 0,0,0;
+      --v-theme-on-surface-bright: 0,0,0;
+      --v-theme-on-surface-light: 0,0,0;
+      --v-theme-on-primary: 255,255,255;
+      --v-theme-on-primary-darken-1: 255,255,255;
+      --v-theme-on-secondary: 255,255,255;
+      --v-theme-on-secondary-darken-1: 255,255,255;
+      --v-theme-on-error: 255,255,255;
+      --v-theme-on-info: 255,255,255;
+      --v-theme-on-success: 255,255,255;
+      --v-theme-on-warning: 0,0,0;
+      --v-border-color: 0, 0, 0;
+      --v-border-opacity: 0.12;
+      --v-high-emphasis-opacity: 0.87;
+      --v-medium-emphasis-opacity: 0.6;
+      --v-disabled-opacity: 0.38;
+      --v-idle-opacity: 0.04;
+      --v-hover-opacity: 0.04;
+      --v-focus-opacity: 0.12;
+      --v-selected-opacity: 0.08;
+      --v-activated-opacity: 0.12;
+      --v-pressed-opacity: 0.12;
+      --v-dragged-opacity: 0.08;
+      --v-theme-kbd: 238, 238, 238;
+      --v-theme-on-kbd: 0, 0, 0;
+      --v-theme-code: 245, 245, 245;
+      --v-theme-on-code: 0, 0, 0;
+    }
+    .v-theme--light {
+      color-scheme: normal;
+      --v-theme-background: 255,255,255;
+      --v-theme-background-overlay-multiplier: 1;
+      --v-theme-surface: 255,255,255;
+      --v-theme-surface-overlay-multiplier: 1;
+      --v-theme-surface-bright: 255,255,255;
+      --v-theme-surface-bright-overlay-multiplier: 1;
+      --v-theme-surface-light: 238,238,238;
+      --v-theme-surface-light-overlay-multiplier: 1;
+      --v-theme-surface-variant: 66,66,66;
+      --v-theme-surface-variant-overlay-multiplier: 2;
+      --v-theme-on-surface-variant: 238,238,238;
+      --v-theme-primary: 24,103,192;
+      --v-theme-primary-overlay-multiplier: 2;
+      --v-theme-primary-darken-1: 31,85,146;
+      --v-theme-primary-darken-1-overlay-multiplier: 2;
+      --v-theme-secondary: 72,169,166;
+      --v-theme-secondary-overlay-multiplier: 1;
+      --v-theme-secondary-darken-1: 1,135,134;
+      --v-theme-secondary-darken-1-overlay-multiplier: 1;
+      --v-theme-error: 176,0,32;
+      --v-theme-error-overlay-multiplier: 2;
+      --v-theme-info: 33,150,243;
+      --v-theme-info-overlay-multiplier: 1;
+      --v-theme-success: 76,175,80;
+      --v-theme-success-overlay-multiplier: 1;
+      --v-theme-warning: 251,140,0;
+      --v-theme-warning-overlay-multiplier: 1;
+      --v-theme-on-background: 0,0,0;
+      --v-theme-on-surface: 0,0,0;
+      --v-theme-on-surface-bright: 0,0,0;
+      --v-theme-on-surface-light: 0,0,0;
+      --v-theme-on-primary: 255,255,255;
+      --v-theme-on-primary-darken-1: 255,255,255;
+      --v-theme-on-secondary: 255,255,255;
+      --v-theme-on-secondary-darken-1: 255,255,255;
+      --v-theme-on-error: 255,255,255;
+      --v-theme-on-info: 255,255,255;
+      --v-theme-on-success: 255,255,255;
+      --v-theme-on-warning: 255,255,255;
+      --v-border-color: 0, 0, 0;
+      --v-border-opacity: 0.12;
+      --v-high-emphasis-opacity: 0.87;
+      --v-medium-emphasis-opacity: 0.6;
+      --v-disabled-opacity: 0.38;
+      --v-idle-opacity: 0.04;
+      --v-hover-opacity: 0.04;
+      --v-focus-opacity: 0.12;
+      --v-selected-opacity: 0.08;
+      --v-activated-opacity: 0.12;
+      --v-pressed-opacity: 0.12;
+      --v-dragged-opacity: 0.08;
+      --v-theme-kbd: 238, 238, 238;
+      --v-theme-on-kbd: 0, 0, 0;
+      --v-theme-code: 245, 245, 245;
+      --v-theme-on-code: 0, 0, 0;
+    }
+    .v-theme--dark {
+      color-scheme: dark;
+      --v-theme-background: 18,18,18;
+      --v-theme-background-overlay-multiplier: 1;
+      --v-theme-surface: 33,33,33;
+      --v-theme-surface-overlay-multiplier: 1;
+      --v-theme-surface-bright: 204,191,214;
+      --v-theme-surface-bright-overlay-multiplier: 2;
+      --v-theme-surface-light: 66,66,66;
+      --v-theme-surface-light-overlay-multiplier: 1;
+      --v-theme-surface-variant: 200,200,200;
+      --v-theme-surface-variant-overlay-multiplier: 2;
+      --v-theme-on-surface-variant: 0,0,0;
+      --v-theme-primary: 33,150,243;
+      --v-theme-primary-overlay-multiplier: 2;
+      --v-theme-primary-darken-1: 39,124,193;
+      --v-theme-primary-darken-1-overlay-multiplier: 2;
+      --v-theme-secondary: 84,182,178;
+      --v-theme-secondary-overlay-multiplier: 2;
+      --v-theme-secondary-darken-1: 72,169,166;
+      --v-theme-secondary-darken-1-overlay-multiplier: 2;
+      --v-theme-error: 207,102,121;
+      --v-theme-error-overlay-multiplier: 2;
+      --v-theme-info: 33,150,243;
+      --v-theme-info-overlay-multiplier: 2;
+      --v-theme-success: 76,175,80;
+      --v-theme-success-overlay-multiplier: 2;
+      --v-theme-warning: 251,140,0;
+      --v-theme-warning-overlay-multiplier: 2;
+      --v-theme-on-background: 255,255,255;
+      --v-theme-on-surface: 255,255,255;
+      --v-theme-on-surface-bright: 0,0,0;
+      --v-theme-on-surface-light: 255,255,255;
+      --v-theme-on-primary: 255,255,255;
+      --v-theme-on-primary-darken-1: 255,255,255;
+      --v-theme-on-secondary: 255,255,255;
+      --v-theme-on-secondary-darken-1: 255,255,255;
+      --v-theme-on-error: 255,255,255;
+      --v-theme-on-info: 255,255,255;
+      --v-theme-on-success: 255,255,255;
+      --v-theme-on-warning: 255,255,255;
+      --v-border-color: 255, 255, 255;
+      --v-border-opacity: 0.12;
+      --v-high-emphasis-opacity: 1;
+      --v-medium-emphasis-opacity: 0.7;
+      --v-disabled-opacity: 0.5;
+      --v-idle-opacity: 0.1;
+      --v-hover-opacity: 0.04;
+      --v-focus-opacity: 0.12;
+      --v-selected-opacity: 0.08;
+      --v-activated-opacity: 0.12;
+      --v-pressed-opacity: 0.16;
+      --v-dragged-opacity: 0.08;
+      --v-theme-kbd: 66, 66, 66;
+      --v-theme-on-kbd: 255, 255, 255;
+      --v-theme-code: 52, 52, 52;
+      --v-theme-on-code: 204, 204, 204;
+    }
+    .v-theme--lightModeColors {
+      color-scheme: normal;
+      --v-theme-background: 245,245,245;
+      --v-theme-background-overlay-multiplier: 1;
+      --v-theme-surface: 245,245,245;
+      --v-theme-surface-overlay-multiplier: 1;
+      --v-theme-surface-bright: 255,255,255;
+      --v-theme-surface-bright-overlay-multiplier: 1;
+      --v-theme-surface-light: 238,238,238;
+      --v-theme-surface-light-overlay-multiplier: 1;
+      --v-theme-surface-variant: 66,66,66;
+      --v-theme-surface-variant-overlay-multiplier: 2;
+      --v-theme-on-surface-variant: 238,238,238;
+      --v-theme-primary: 41,112,69;
+      --v-theme-primary-overlay-multiplier: 2;
+      --v-theme-primary-darken-1: 138,1,2;
+      --v-theme-primary-darken-1-overlay-multiplier: 2;
+      --v-theme-secondary: 0,0,0;
+      --v-theme-secondary-overlay-multiplier: 2;
+      --v-theme-secondary-darken-1: 62,62,62;
+      --v-theme-secondary-darken-1-overlay-multiplier: 2;
+      --v-theme-error: 255,82,82;
+      --v-theme-error-overlay-multiplier: 1;
+      --v-theme-info: 33,150,243;
+      --v-theme-info-overlay-multiplier: 1;
+      --v-theme-success: 76,175,80;
+      --v-theme-success-overlay-multiplier: 1;
+      --v-theme-warning: 255,193,7;
+      --v-theme-warning-overlay-multiplier: 1;
+      --v-theme-on-background: 0,0,0;
+      --v-theme-on-surface: 0,0,0;
+      --v-theme-on-surface-bright: 0,0,0;
+      --v-theme-on-surface-light: 0,0,0;
+      --v-theme-on-primary: 255,255,255;
+      --v-theme-on-primary-darken-1: 255,255,255;
+      --v-theme-on-secondary: 255,255,255;
+      --v-theme-on-secondary-darken-1: 255,255,255;
+      --v-theme-on-error: 255,255,255;
+      --v-theme-on-info: 255,255,255;
+      --v-theme-on-success: 255,255,255;
+      --v-theme-on-warning: 0,0,0;
+      --v-border-color: 0, 0, 0;
+      --v-border-opacity: 0.12;
+      --v-high-emphasis-opacity: 0.87;
+      --v-medium-emphasis-opacity: 0.6;
+      --v-disabled-opacity: 0.38;
+      --v-idle-opacity: 0.04;
+      --v-hover-opacity: 0.04;
+      --v-focus-opacity: 0.12;
+      --v-selected-opacity: 0.08;
+      --v-activated-opacity: 0.12;
+      --v-pressed-opacity: 0.12;
+      --v-dragged-opacity: 0.08;
+      --v-theme-kbd: 238, 238, 238;
+      --v-theme-on-kbd: 0, 0, 0;
+      --v-theme-code: 245, 245, 245;
+      --v-theme-on-code: 0, 0, 0;
+    }
+    .v-theme--darkModeColors {
+      color-scheme: dark;
+      --v-theme-background: 37,37,37;
+      --v-theme-background-overlay-multiplier: 1;
+      --v-theme-surface: 37,37,37;
+      --v-theme-surface-overlay-multiplier: 1;
+      --v-theme-surface-bright: 204,191,214;
+      --v-theme-surface-bright-overlay-multiplier: 2;
+      --v-theme-surface-light: 66,66,66;
+      --v-theme-surface-light-overlay-multiplier: 1;
+      --v-theme-surface-variant: 200,200,200;
+      --v-theme-surface-variant-overlay-multiplier: 2;
+      --v-theme-on-surface-variant: 0,0,0;
+      --v-theme-primary: 187,2,4;
+      --v-theme-primary-overlay-multiplier: 1;
+      --v-theme-primary-darken-1: 138,1,2;
+      --v-theme-primary-darken-1-overlay-multiplier: 1;
+      --v-theme-secondary: 255,255,255;
+      --v-theme-secondary-overlay-multiplier: 2;
+      --v-theme-secondary-darken-1: 245,245,245;
+      --v-theme-secondary-darken-1-overlay-multiplier: 2;
+      --v-theme-error: 255,82,82;
+      --v-theme-error-overlay-multiplier: 2;
+      --v-theme-info: 33,150,243;
+      --v-theme-info-overlay-multiplier: 2;
+      --v-theme-success: 76,175,80;
+      --v-theme-success-overlay-multiplier: 2;
+      --v-theme-warning: 255,193,7;
+      --v-theme-warning-overlay-multiplier: 2;
+      --v-theme-on-background: 255,255,255;
+      --v-theme-on-surface: 255,255,255;
+      --v-theme-on-surface-bright: 0,0,0;
+      --v-theme-on-surface-light: 255,255,255;
+      --v-theme-on-primary: 255,255,255;
+      --v-theme-on-primary-darken-1: 255,255,255;
+      --v-theme-on-secondary: 0,0,0;
+      --v-theme-on-secondary-darken-1: 0,0,0;
+      --v-theme-on-error: 255,255,255;
+      --v-theme-on-info: 255,255,255;
+      --v-theme-on-success: 255,255,255;
+      --v-theme-on-warning: 0,0,0;
+      --v-border-color: 255, 255, 255;
+      --v-border-opacity: 0.12;
+      --v-high-emphasis-opacity: 1;
+      --v-medium-emphasis-opacity: 0.7;
+      --v-disabled-opacity: 0.5;
+      --v-idle-opacity: 0.1;
+      --v-hover-opacity: 0.04;
+      --v-focus-opacity: 0.12;
+      --v-selected-opacity: 0.08;
+      --v-activated-opacity: 0.12;
+      --v-pressed-opacity: 0.16;
+      --v-dragged-opacity: 0.08;
+      --v-theme-kbd: 66, 66, 66;
+      --v-theme-on-kbd: 255, 255, 255;
+      --v-theme-code: 52, 52, 52;
+      --v-theme-on-code: 204, 204, 204;
+    }
+    .bg-background {
+      --v-theme-overlay-multiplier: var(--v-theme-background-overlay-multiplier);
+      background-color: rgb(var(--v-theme-background)) !important;
+      color: rgb(var(--v-theme-on-background)) !important;
+    }
+    .bg-surface {
+      --v-theme-overlay-multiplier: var(--v-theme-surface-overlay-multiplier);
+      background-color: rgb(var(--v-theme-surface)) !important;
+      color: rgb(var(--v-theme-on-surface)) !important;
+    }
+    .bg-surface-bright {
+      --v-theme-overlay-multiplier: var(--v-theme-surface-bright-overlay-multiplier);
+      background-color: rgb(var(--v-theme-surface-bright)) !important;
+      color: rgb(var(--v-theme-on-surface-bright)) !important;
+    }
+    .bg-surface-light {
+      --v-theme-overlay-multiplier: var(--v-theme-surface-light-overlay-multiplier);
+      background-color: rgb(var(--v-theme-surface-light)) !important;
+      color: rgb(var(--v-theme-on-surface-light)) !important;
+    }
+    .bg-surface-variant {
+      --v-theme-overlay-multiplier: var(--v-theme-surface-variant-overlay-multiplier);
+      background-color: rgb(var(--v-theme-surface-variant)) !important;
+      color: rgb(var(--v-theme-on-surface-variant)) !important;
+    }
+    .bg-primary {
+      --v-theme-overlay-multiplier: var(--v-theme-primary-overlay-multiplier);
+      background-color: rgb(var(--v-theme-primary)) !important;
+      color: rgb(var(--v-theme-on-primary)) !important;
+    }
+    .bg-primary-darken-1 {
+      --v-theme-overlay-multiplier: var(--v-theme-primary-darken-1-overlay-multiplier);
+      background-color: rgb(var(--v-theme-primary-darken-1)) !important;
+      color: rgb(var(--v-theme-on-primary-darken-1)) !important;
+    }
+    .bg-secondary {
+      --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
+      background-color: rgb(var(--v-theme-secondary)) !important;
+      color: rgb(var(--v-theme-on-secondary)) !important;
+    }
+    .bg-secondary-darken-1 {
+      --v-theme-overlay-multiplier: var(--v-theme-secondary-darken-1-overlay-multiplier);
+      background-color: rgb(var(--v-theme-secondary-darken-1)) !important;
+      color: rgb(var(--v-theme-on-secondary-darken-1)) !important;
+    }
+    .bg-error {
+      --v-theme-overlay-multiplier: var(--v-theme-error-overlay-multiplier);
+      background-color: rgb(var(--v-theme-error)) !important;
+      color: rgb(var(--v-theme-on-error)) !important;
+    }
+    .bg-info {
+      --v-theme-overlay-multiplier: var(--v-theme-info-overlay-multiplier);
+      background-color: rgb(var(--v-theme-info)) !important;
+      color: rgb(var(--v-theme-on-info)) !important;
+    }
+    .bg-success {
+      --v-theme-overlay-multiplier: var(--v-theme-success-overlay-multiplier);
+      background-color: rgb(var(--v-theme-success)) !important;
+      color: rgb(var(--v-theme-on-success)) !important;
+    }
+    .bg-warning {
+      --v-theme-overlay-multiplier: var(--v-theme-warning-overlay-multiplier);
+      background-color: rgb(var(--v-theme-warning)) !important;
+      color: rgb(var(--v-theme-on-warning)) !important;
+    }
+    .text-background {
+      color: rgb(var(--v-theme-background)) !important;
+    }
+    .border-background {
+      --v-border-color: var(--v-theme-background);
+    }
+    .text-surface {
+      color: rgb(var(--v-theme-surface)) !important;
+    }
+    .border-surface {
+      --v-border-color: var(--v-theme-surface);
+    }
+    .text-surface-bright {
+      color: rgb(var(--v-theme-surface-bright)) !important;
+    }
+    .border-surface-bright {
+      --v-border-color: var(--v-theme-surface-bright);
+    }
+    .text-surface-light {
+      color: rgb(var(--v-theme-surface-light)) !important;
+    }
+    .border-surface-light {
+      --v-border-color: var(--v-theme-surface-light);
+    }
+    .text-surface-variant {
+      color: rgb(var(--v-theme-surface-variant)) !important;
+    }
+    .border-surface-variant {
+      --v-border-color: var(--v-theme-surface-variant);
+    }
+    .on-surface-variant {
+      color: rgb(var(--v-theme-on-surface-variant)) !important;
+    }
+    .text-primary {
+      color: rgb(var(--v-theme-primary)) !important;
+    }
+    .border-primary {
+      --v-border-color: var(--v-theme-primary);
+    }
+    .text-primary-darken-1 {
+      color: rgb(var(--v-theme-primary-darken-1)) !important;
+    }
+    .border-primary-darken-1 {
+      --v-border-color: var(--v-theme-primary-darken-1);
+    }
+    .text-secondary {
+      color: rgb(var(--v-theme-secondary)) !important;
+    }
+    .border-secondary {
+      --v-border-color: var(--v-theme-secondary);
+    }
+    .text-secondary-darken-1 {
+      color: rgb(var(--v-theme-secondary-darken-1)) !important;
+    }
+    .border-secondary-darken-1 {
+      --v-border-color: var(--v-theme-secondary-darken-1);
+    }
+    .text-error {
+      color: rgb(var(--v-theme-error)) !important;
+    }
+    .border-error {
+      --v-border-color: var(--v-theme-error);
+    }
+    .text-info {
+      color: rgb(var(--v-theme-info)) !important;
+    }
+    .border-info {
+      --v-border-color: var(--v-theme-info);
+    }
+    .text-success {
+      color: rgb(var(--v-theme-success)) !important;
+    }
+    .border-success {
+      --v-border-color: var(--v-theme-success);
+    }
+    .text-warning {
+      color: rgb(var(--v-theme-warning)) !important;
+    }
+    .border-warning {
+      --v-border-color: var(--v-theme-warning);
+    }
+    .on-background {
+      color: rgb(var(--v-theme-on-background)) !important;
+    }
+    .on-surface {
+      color: rgb(var(--v-theme-on-surface)) !important;
+    }
+    .on-surface-bright {
+      color: rgb(var(--v-theme-on-surface-bright)) !important;
+    }
+    .on-surface-light {
+      color: rgb(var(--v-theme-on-surface-light)) !important;
+    }
+    .on-primary {
+      color: rgb(var(--v-theme-on-primary)) !important;
+    }
+    .on-primary-darken-1 {
+      color: rgb(var(--v-theme-on-primary-darken-1)) !important;
+    }
+    .on-secondary {
+      color: rgb(var(--v-theme-on-secondary)) !important;
+    }
+    .on-secondary-darken-1 {
+      color: rgb(var(--v-theme-on-secondary-darken-1)) !important;
+    }
+    .on-error {
+      color: rgb(var(--v-theme-on-error)) !important;
+    }
+    .on-info {
+      color: rgb(var(--v-theme-on-info)) !important;
+    }
+    .on-success {
+      color: rgb(var(--v-theme-on-success)) !important;
+    }
+    .on-warning {
+      color: rgb(var(--v-theme-on-warning)) !important;
+    }
+</style><style type="text/css">
+    #nprogress {
+      pointer-events: none;
+    }
+
+    #nprogress .bar {
+      background: #4B5563;
+
+      position: fixed;
+      z-index: 1031;
+      top: 0;
+      left: 0;
+
+      width: 100%;
+      height: 2px;
+    }
+
+    #nprogress .peg {
+      display: block;
+      position: absolute;
+      right: 0px;
+      width: 100px;
+      height: 100%;
+      box-shadow: 0 0 10px #4B5563, 0 0 5px #4B5563;
+      opacity: 1.0;
+
+      -webkit-transform: rotate(3deg) translate(0px, -4px);
+          -ms-transform: rotate(3deg) translate(0px, -4px);
+              transform: rotate(3deg) translate(0px, -4px);
+    }
+
+    #nprogress .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1031;
+      top: 15px;
+      right: 15px;
+    }
+
+    #nprogress .spinner-icon {
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+
+      border: solid 2px transparent;
+      border-top-color: #4B5563;
+      border-left-color: #4B5563;
+      border-radius: 50%;
+
+      -webkit-animation: nprogress-spinner 400ms linear infinite;
+              animation: nprogress-spinner 400ms linear infinite;
+    }
+
+    .nprogress-custom-parent {
+      overflow: hidden;
+      position: relative;
+    }
+
+    .nprogress-custom-parent #nprogress .spinner,
+    .nprogress-custom-parent #nprogress .bar {
+      position: absolute;
+    }
+
+    @-webkit-keyframes nprogress-spinner {
+      0%   { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes nprogress-spinner {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style></head>
+
+<body class="font-sans antialiased">
+    <div id="app" data-page="{&quot;component&quot;:&quot;CustomValues\/Index&quot;,&quot;props&quot;:{&quot;jetstream&quot;:{&quot;canCreateTeams&quot;:false,&quot;canManageTwoFactorAuthentication&quot;:true,&quot;canUpdatePassword&quot;:true,&quot;canUpdateProfileInformation&quot;:true,&quot;hasEmailVerification&quot;:false,&quot;flash&quot;:[],&quot;hasAccountDeletionFeatures&quot;:false,&quot;hasApiFeatures&quot;:false,&quot;hasTeamFeatures&quot;:false,&quot;hasTermsAndPrivacyPolicyFeature&quot;:false,&quot;managesProfilePhotos&quot;:true},&quot;auth&quot;:{&quot;user&quot;:null},&quot;errorBags&quot;:[],&quot;location_id&quot;:&quot;XKtw72q4SRV3XoFomk0B&quot;,&quot;agency_id&quot;:&quot;iwJHqcwwG4OCE3K0pSkx&quot;,&quot;timezones&quot;:[{&quot;label&quot;:&quot;Hawaii-Aleutian (no DST)&quot;,&quot;value&quot;:&quot;Pacific\/Honolulu&quot;},{&quot;label&quot;:&quot;Alaska Time&quot;,&quot;value&quot;:&quot;America\/Juneau&quot;},{&quot;label&quot;:&quot;Pacific Time&quot;,&quot;value&quot;:&quot;America\/Los_Angeles&quot;},{&quot;label&quot;:&quot;Mountain Time&quot;,&quot;value&quot;:&quot;America\/Denver&quot;},{&quot;label&quot;:&quot;Mountain Time (no DST)&quot;,&quot;value&quot;:&quot;America\/Phoenix&quot;},{&quot;label&quot;:&quot;Central Time&quot;,&quot;value&quot;:&quot;America\/Chicago&quot;},{&quot;label&quot;:&quot;Eastern Time&quot;,&quot;value&quot;:&quot;America\/New_York&quot;},{&quot;label&quot;:&quot;Newfoundland Time&quot;,&quot;value&quot;:&quot;America\/St_Johns&quot;},{&quot;label&quot;:&quot;Atlantic Time&quot;,&quot;value&quot;:&quot;America\/Glace_Bay&quot;}],&quot;updateUri&quot;:&quot;https:\/\/connect.recodemand.com\/customValues\/updateWebinar&quot;,&quot;fetchUri&quot;:&quot;https:\/\/connect.recodemand.com\/customValues\/currentData?location_id=XKtw72q4SRV3XoFomk0B&amp;agency_id=iwJHqcwwG4OCE3K0pSkx&quot;},&quot;url&quot;:&quot;\/customValues\/update\/iwJHqcwwG4OCE3K0pSkx\/XKtw72q4SRV3XoFomk0B&quot;,&quot;version&quot;:&quot;fa3deae1b97de5bc38458a8c4529cce4&quot;}" data-v-app=""><!----><div class="v-application v-theme--lightModeColors v-layout v-layout--full-height v-locale--is-ltr"><div class="v-application__wrap"><main class="v-main" style="--v-layout-left: 0px; --v-layout-right: 0px; --v-layout-top: 0px; --v-layout-bottom: 0px;"><section class="min-h-screen py-4 my-auto bg-gray-200"><!----><!----><div class="v-responsive v-img mx-auto mb-4" style="max-width: 200px;"><div class="v-responsive__sizer" style="padding-bottom: 60.9342%;"></div><img class="v-img__img v-img__img--contain" src="/build/assets/logo2-SPWz7P0h.png" style=""><!----><!----><!----><!----><!----></div><div class="v-card v-card--flat v-theme--lightModeColors v-card--density-default elevation-0 rounded-lg v-card--variant-text px-12 py-4 mx-auto"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--lightModeColors v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="w-full mx-auto grid grid-flow-row md:grid-cols-2 gap-5"><div class="v-card v-card--flat v-theme--lightModeColors v-card--density-default elevation-5 v-card--variant-tonal"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--lightModeColors v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="v-card-title text-center mb-2"><span class="text-lg break-words text-wrap"> Webinar Date &amp; Time </span></div><form class="v-form" novalidate=""><div class="v-card-text"><div class="v-input v-input--horizontal v-input--center-affix v-input--density-default v-theme--lightModeColors v-locale--is-ltr"><!----><div class="v-input__control"><div class="flex flex-col gap-1 w-full"><span>Webinar Date</span><div class="el-input el-input--large el-input--prefix el-input--suffix el-date-editor el-date-editor--date el-tooltip__trigger el-tooltip__trigger" style="width: 100%;"><!-- input --><!-- prepend slot --><!--v-if--><div class="el-input__wrapper" tabindex="-1"><!-- prefix slot --><span class="el-input__prefix"><span class="el-input__prefix-inner"><i class="el-icon el-input__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M128 384v512h768V192H768v32a32 32 0 1 1-64 0v-32H320v32a32 32 0 0 1-64 0v-32H128v128h768v64zm192-256h384V96a32 32 0 1 1 64 0v32h160a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32h160V96a32 32 0 0 1 64 0zm-32 384h64a32 32 0 0 1 0 64h-64a32 32 0 0 1 0-64m0 192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64m192-192h64a32 32 0 0 1 0 64h-64a32 32 0 0 1 0-64m0 192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64m192-192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64m0 192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64"></path></svg></i><!--v-if--></span></span><input class="el-input__inner" aria-controls="el-id-529-0" aria-expanded="false" aria-haspopup="dialog" type="text" autocomplete="off" tabindex="0" placeholder="Select Webinar Date" role="combobox" id="el-id-529-13"><!-- suffix slot --><span class="el-input__suffix"><span class="el-input__suffix-inner"><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--></span></span></div><!-- append slot --><!--v-if--></div></div></div><!----><div id="input-v-0-messages" class="v-input__details" role="alert" aria-live="polite"><div class="v-messages"></div><!----></div></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-default v-theme--lightModeColors v-locale--is-ltr"><!----><div class="v-input__control"><div class="flex flex-col gap-1 w-full"><span>Webinar Time</span><div class="el-input el-input--large el-input--prefix el-input--suffix el-date-editor el-date-editor--time el-tooltip__trigger el-tooltip__trigger" style="width: 100%;"><!-- input --><!-- prepend slot --><!--v-if--><div class="el-input__wrapper" tabindex="-1"><!-- prefix slot --><span class="el-input__prefix"><span class="el-input__prefix-inner"><i class="el-icon el-input__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768m0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896"></path><path fill="currentColor" d="M480 256a32 32 0 0 1 32 32v256a32 32 0 0 1-64 0V288a32 32 0 0 1 32-32"></path><path fill="currentColor" d="M480 512h256q32 0 32 32t-32 32H480q-32 0-32-32t32-32"></path></svg></i><!--v-if--></span></span><input class="el-input__inner" aria-controls="el-id-529-1" aria-expanded="false" aria-haspopup="dialog" type="text" autocomplete="off" tabindex="0" placeholder="Select Webinar Time" role="combobox" id="el-id-529-14"><!-- suffix slot --><span class="el-input__suffix"><span class="el-input__suffix-inner"><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--></span></span></div><!-- append slot --><!--v-if--></div></div></div><!----><div id="input-v-1-messages" class="v-input__details" role="alert" aria-live="polite"><div class="v-messages"></div><!----></div></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-default v-theme--lightModeColors v-locale--is-ltr"><!----><div class="v-input__control"><div class="flex flex-col gap-1 w-full"><span>Timezone</span><div class="el-select el-select--large" style="width: 100%;"><div class="el-select__wrapper el-tooltip__trigger el-tooltip__trigger" tabindex="-1"><!--v-if--><div class="el-select__selection"><!--v-if--><div class="el-select__selected-item el-select__input-wrapper is-hidden"><input type="text" class="el-select__input is-large" autocomplete="off" tabindex="0" role="combobox" readonly="" spellcheck="false" aria-activedescendant="" aria-controls="el-id-529-2" aria-expanded="false" aria-autocomplete="none" aria-haspopup="listbox" id="el-id-529-15" style="min-width: 11px;"><!--v-if--></div><div class="el-select__selected-item el-select__placeholder"><span>Eastern Time</span></div></div><div class="el-select__suffix"><i class="el-icon el-select__caret el-select__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M831.872 340.864 512 652.672 192.128 340.864a30.59 30.59 0 0 0-42.752 0 29.12 29.12 0 0 0 0 41.6L489.664 714.24a32 32 0 0 0 44.672 0l340.288-331.712a29.12 29.12 0 0 0 0-41.728 30.59 30.59 0 0 0-42.752 0z"></path></svg></i><!--v-if--><!--v-if--></div></div></div></div></div><!----><div id="input-v-2-messages" class="v-input__details" role="alert" aria-live="polite"><div class="v-messages"></div><!----></div></div></div><div class="v-card-actions"><button type="button" class="v-btn v-btn--block v-btn--flat v-btn--slim v-theme--lightModeColors text-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-tonal"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Set Webinar Date &amp; Time </span><!----><!----></button></div></form><!----><!----><span class="v-card__underlay"></span></div><div class="v-card v-card--flat v-theme--lightModeColors v-card--density-default elevation-5 v-card--variant-tonal"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--lightModeColors v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="v-card-title text-center mb-2"><span class="text-lg break-words text-wrap">Webinar Details</span></div><form class="v-form" novalidate=""><div class="v-card-text"><div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--lightModeColors v-locale--is-ltr v-input--dirty v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--active v-field--center-affix v-field--dirty v-field--flat v-field--variant-outlined v-theme--lightModeColors v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--lightModeColors v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><label class="v-label v-field-label" for="input-v-4"><!---->City</label><!----><input placeholder="Enter City" size="1" type="text" id="input-v-4" aria-describedby="input-v-4-messages" class="v-field__input" value="New York"><!----></div><!----><!----><div class="v-field__outline"><div class="v-field__outline__start"></div><div class="v-field__outline__notch"><label class="v-label v-field-label v-field-label--floating" for="input-v-4" aria-hidden="false"><!---->City</label></div><div class="v-field__outline__end"></div><!----></div></div></div><div class="v-input__append"><!----><button type="button" class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Save</span><!----><!----></button></div><div id="input-v-4-messages" class="v-input__details" role="alert" aria-live="polite"><div class="v-messages"></div><!----></div></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--lightModeColors v-locale--is-ltr v-input--dirty v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--active v-field--center-affix v-field--dirty v-field--flat v-field--variant-outlined v-theme--lightModeColors v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--lightModeColors v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><label class="v-label v-field-label" for="input-v-7"><!---->Zoom Link</label><!----><input placeholder="Enter Zoom Link" size="1" type="text" id="input-v-7" aria-describedby="input-v-7-messages" class="v-field__input" value="https://us06web.zoom.us/j/9661741676?pwd=clZEeUlkL04zRFRqeTYyWjNqeVpMZz09"><!----></div><!----><!----><div class="v-field__outline"><div class="v-field__outline__start"></div><div class="v-field__outline__notch"><label class="v-label v-field-label v-field-label--floating" for="input-v-7" aria-hidden="false"><!---->Zoom Link</label></div><div class="v-field__outline__end"></div><!----></div></div></div><div class="v-input__append"><!----><button type="button" class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Save</span><!----><!----></button></div><div id="input-v-7-messages" class="v-input__details" role="alert" aria-live="polite"><div class="v-messages"></div><!----></div></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--lightModeColors v-locale--is-ltr v-input--dirty v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--active v-field--center-affix v-field--dirty v-field--flat v-field--variant-outlined v-theme--lightModeColors v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--lightModeColors v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><label class="v-label v-field-label" for="input-v-10"><!---->Host Name</label><!----><input placeholder="Enter Host Name" size="1" type="text" id="input-v-10" aria-describedby="input-v-10-messages" class="v-field__input" value="Marlene Forde"><!----></div><!----><!----><div class="v-field__outline"><div class="v-field__outline__start"></div><div class="v-field__outline__notch"><label class="v-label v-field-label v-field-label--floating" for="input-v-10" aria-hidden="false"><!---->Host Name</label></div><div class="v-field__outline__end"></div><!----></div></div></div><div class="v-input__append"><!----><button type="button" class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Save</span><!----><!----></button></div><div id="input-v-10-messages" class="v-input__details" role="alert" aria-live="polite"><div class="v-messages"></div><!----></div></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--lightModeColors v-locale--is-ltr v-input--dirty v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--active v-field--center-affix v-field--dirty v-field--flat v-field--variant-outlined v-theme--lightModeColors v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--lightModeColors v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><label class="v-label v-field-label" for="input-v-13"><!---->Host Email</label><!----><input placeholder="Enter Host Email" size="1" type="text" id="input-v-13" aria-describedby="input-v-13-messages" class="v-field__input" value="Marlene@gainequitymortgages.com"><!----></div><!----><!----><div class="v-field__outline"><div class="v-field__outline__start"></div><div class="v-field__outline__notch"><label class="v-label v-field-label v-field-label--floating" for="input-v-13" aria-hidden="false"><!---->Host Email</label></div><div class="v-field__outline__end"></div><!----></div></div></div><div class="v-input__append"><!----><button type="button" class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Save</span><!----><!----></button></div><div id="input-v-13-messages" class="v-input__details" role="alert" aria-live="polite"><div class="v-messages"></div><!----></div></div><div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--lightModeColors v-locale--is-ltr v-input--dirty v-text-field"><!----><div class="v-input__control"><div class="v-field v-field--active v-field--center-affix v-field--dirty v-field--flat v-field--variant-outlined v-theme--lightModeColors v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--lightModeColors v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><div class="v-field__field" data-no-activator=""><!----><label class="v-label v-field-label" for="input-v-16"><!---->Domain Name</label><!----><input placeholder="Enter Domain Name" size="1" type="text" id="input-v-16" aria-describedby="input-v-16-messages" class="v-field__input" value="https://newyork.zoomwebinars.net"><!----></div><!----><!----><div class="v-field__outline"><div class="v-field__outline__start"></div><div class="v-field__outline__notch"><label class="v-label v-field-label v-field-label--floating" for="input-v-16" aria-hidden="false"><!---->Domain Name</label></div><div class="v-field__outline__end"></div><!----></div></div></div><div class="v-input__append"><!----><button type="button" class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Save</span><!----><!----></button></div><div id="input-v-16-messages" class="v-input__details" role="alert" aria-live="polite"><div class="v-messages"></div><!----></div></div></div><div class="v-card-actions"><button type="submit" class="v-btn v-btn--block v-btn--flat v-btn--slim v-theme--lightModeColors text-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-tonal"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Save All </span><!----><!----></button></div></form><!----><!----><span class="v-card__underlay"></span></div></div><div class="v-card v-card--flat v-theme--lightModeColors v-card--density-default elevation-5 v-card--variant-tonal mx-auto mt-4" style="max-width: 700px;"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--lightModeColors v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="v-card-title text-center mb-2"><span class="text-lg break-words text-wrap">Your Links</span></div><div class="v-card-text"><div class="flex flex-col gap-2"><a class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated" href="https://us06web.zoom.us/j/9661741676?pwd=clZEeUlkL04zRFRqeTYyWjNqeVpMZz09" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Launch Zoom Webinar </span><!----><!----></a><div class="w-full flex flex-row gap-2"><a class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated w-1/2" href="https://newyork.zoomwebinars.net/book" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Open Booking Link </span><!----><!----></a><button type="button" class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated flex-grow"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Copy Booking Link</span><!----><!----></button></div><a class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated" href="https://www.canva.com/design/DAGVQu5PAKA/05wQ4p-xzPv_IiQKYi9tlQ/edit?utm_content=DAGVQu5PAKA&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Go to Canva Template </span><!----><!----></a><a class="v-btn v-btn--flat v-theme--lightModeColors bg-info v-btn--density-default elevation-0 v-btn--size-default v-btn--variant-elevated" href="https://adsmanager.facebook.com/adsmanager/manage/campaigns?act=933243471669854&amp;business_id=470457455676375&amp;nav_entry_point=ads_ecosystem_navigation_menu&amp;nav_source=ads_manager#" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Go to Ads Manager </span><!----><!----></a></div></div><!----><!----><span class="v-card__underlay"></span></div><!----><!----><span class="v-card__underlay"></span></div></section></main></div></div></div>
+
+
+<div id="el-popper-container-529"><div class="el-popper is-pure is-light el-tooltip el-picker__popper" tabindex="-1" aria-hidden="true" role="dialog" aria-modal="false" id="el-id-529-0" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="z-index: 2001; position: absolute; inset: 322px auto auto 219px; display: none;"><div class="el-picker-panel el-date-picker" modelvalue="" isrange="false" shortcuts="" arrowcontrol="false" unlinkpanels="false" clearable="true" actualvisible="false"><div class="el-picker-panel__body-wrapper"><!--v-if--><div class="el-picker-panel__body"><!--v-if--><div class="el-date-picker__header"><span class="el-date-picker__prev-btn"><button type="button" aria-label="Previous Year" class="d-arrow-left el-picker-panel__icon-btn"><i class="el-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M529.408 149.376a29.12 29.12 0 0 1 41.728 0 30.59 30.59 0 0 1 0 42.688L259.264 511.936l311.872 319.936a30.59 30.59 0 0 1-.512 43.264 29.12 29.12 0 0 1-41.216-.512L197.76 534.272a32 32 0 0 1 0-44.672zm256 0a29.12 29.12 0 0 1 41.728 0 30.59 30.59 0 0 1 0 42.688L515.264 511.936l311.872 319.936a30.59 30.59 0 0 1-.512 43.264 29.12 29.12 0 0 1-41.216-.512L453.76 534.272a32 32 0 0 1 0-44.672z"></path></svg></i></button><button type="button" aria-label="Previous Month" class="el-picker-panel__icon-btn arrow-left"><i class="el-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M609.408 149.376 277.76 489.6a32 32 0 0 0 0 44.672l331.648 340.352a29.12 29.12 0 0 0 41.728 0 30.59 30.59 0 0 0 0-42.752L339.264 511.936l311.872-319.872a30.59 30.59 0 0 0 0-42.688 29.12 29.12 0 0 0-41.728 0"></path></svg></i></button></span><span role="button" class="el-date-picker__header-label" aria-live="polite" tabindex="0">2025 </span><span role="button" aria-live="polite" tabindex="0" class="el-date-picker__header-label">October</span><span class="el-date-picker__next-btn"><button type="button" aria-label="Next Month" class="el-picker-panel__icon-btn arrow-right"><i class="el-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M340.864 149.312a30.59 30.59 0 0 0 0 42.752L652.736 512 340.864 831.872a30.59 30.59 0 0 0 0 42.752 29.12 29.12 0 0 0 41.728 0L714.24 534.336a32 32 0 0 0 0-44.672L382.592 149.376a29.12 29.12 0 0 0-41.728 0z"></path></svg></i></button><button type="button" aria-label="Next Year" class="el-picker-panel__icon-btn d-arrow-right"><i class="el-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M452.864 149.312a29.12 29.12 0 0 1 41.728.064L826.24 489.664a32 32 0 0 1 0 44.672L494.592 874.624a29.12 29.12 0 0 1-41.728 0 30.59 30.59 0 0 1 0-42.752L764.736 512 452.864 192a30.59 30.59 0 0 1 0-42.688m-256 0a29.12 29.12 0 0 1 41.728.064L570.24 489.664a32 32 0 0 1 0 44.672L238.592 874.624a29.12 29.12 0 0 1-41.728 0 30.59 30.59 0 0 1 0-42.752L508.736 512 196.864 192a30.59 30.59 0 0 1 0-42.688"></path></svg></i></button></span></div><div class="el-picker-panel__content"><table aria-label="Use the arrow keys and enter to select the day of the month" class="el-date-table" cellspacing="0" cellpadding="0" role="grid"><tbody><tr><!--v-if--><th aria-label="Sunday" scope="col">Sun</th><th aria-label="Monday" scope="col">Mon</th><th aria-label="Tuesday" scope="col">Tue</th><th aria-label="Wednesday" scope="col">Wed</th><th aria-label="Thursday" scope="col">Thu</th><th aria-label="Friday" scope="col">Fri</th><th aria-label="Saturday" scope="col">Sat</th></tr><tr class="el-date-table__row"><td class="prev-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">28</span></div></td><td class="prev-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">29</span></div></td><td class="prev-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">30</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">1</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">2</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">3</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">4</span></div></td></tr><tr class="el-date-table__row"><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">5</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">6</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">7</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">8</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">9</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">10</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">11</span></div></td></tr><tr class="el-date-table__row"><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">12</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">13</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">14</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">15</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">16</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">17</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">18</span></div></td></tr><tr class="el-date-table__row"><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">19</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">20</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">21</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">22</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">23</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">24</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">25</span></div></td></tr><tr class="el-date-table__row"><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">26</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">27</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">28</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">29</span></div></td><td class="available current" aria-current="date" aria-selected="true" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">30</span></div></td><td class="available" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">31</span></div></td><td class="next-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">1</span></div></td></tr><tr class="el-date-table__row"><td class="next-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">2</span></div></td><td class="next-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">3</span></div></td><td class="next-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">4</span></div></td><td class="next-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">5</span></div></td><td class="next-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">6</span></div></td><td class="next-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">7</span></div></td><td class="next-month" aria-selected="false" tabindex="-1"><div class="el-date-table-cell"><span class="el-date-table-cell__text">8</span></div></td></tr></tbody></table><!--v-if--><!--v-if--></div></div></div><!--v-if--></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 5px;"></span></div><div class="el-popper is-pure is-light el-tooltip el-picker__popper" tabindex="-1" aria-hidden="true" role="dialog" aria-modal="false" id="el-id-529-1" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="z-index: 2002; position: absolute; inset: 412px auto auto 219px; display: none;"><!--v-if--><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 5px;"></span></div><div class="el-popper is-pure is-light el-tooltip el-select__popper" tabindex="-1" aria-hidden="true" role="tooltip" id="el-id-529-3" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" style="z-index: 2003; position: absolute; inset: 502px auto auto 64px; display: none;"><div class="el-select-dropdown" style="min-width: 310px;"><!--v-if--><!--v-if--><div class="el-scrollbar" style=""><div class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default"><ul id="el-id-529-2" class="el-scrollbar__view el-select-dropdown__list" role="listbox" aria-orientation="vertical" style=""><!--v-if--><li id="el-id-529-4" class="el-select-dropdown__item" role="option" aria-selected="false"><span class="float-left">Hawaii-Aleutian (no DST)</span><span class="float-right">6:03 PM</span></li><li id="el-id-529-5" class="el-select-dropdown__item" role="option" aria-selected="false"><span class="float-left">Alaska Time</span><span class="float-right">7:03 PM</span></li><li id="el-id-529-6" class="el-select-dropdown__item" role="option" aria-selected="false"><span class="float-left">Pacific Time</span><span class="float-right">8:03 PM</span></li><li id="el-id-529-7" class="el-select-dropdown__item" role="option" aria-selected="false"><span class="float-left">Mountain Time</span><span class="float-right">9:03 PM</span></li><li id="el-id-529-8" class="el-select-dropdown__item" role="option" aria-selected="false"><span class="float-left">Mountain Time (no DST)</span><span class="float-right">9:03 PM</span></li><li id="el-id-529-9" class="el-select-dropdown__item" role="option" aria-selected="false"><span class="float-left">Central Time</span><span class="float-right">10:03 PM</span></li><li id="el-id-529-10" class="el-select-dropdown__item is-selected" role="option" aria-selected="true"><span class="float-left">Eastern Time</span><span class="float-right">11:03 PM</span></li><li id="el-id-529-11" class="el-select-dropdown__item" role="option" aria-selected="false"><span class="float-left">Newfoundland Time</span><span class="float-right">12:33 AM</span></li><li id="el-id-529-12" class="el-select-dropdown__item" role="option" aria-selected="false"><span class="float-left">Atlantic Time</span><span class="float-right">12:03 AM</span></li></ul></div><div class="el-scrollbar__bar is-horizontal" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><!--v-if--><!--v-if--><!--v-if--></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 5px;"></span></div></div></body></html>

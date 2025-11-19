@@ -1,0 +1,250 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Background section styling */
+section.bg-gray-200 {
+  background-color: rgb(245, 245, 245) !important;
+  min-height: 100vh;
+  padding: 1rem 0;
+}
+
+/* Logo container - ensure it's centered */
+.v-responsive.v-img.mx-auto {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 1.5rem !important;
+  max-width: 200px !important;
+}
+
+/* Main container card */
+.v-card.mx-auto {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 3rem;
+}
+
+/* Grid layout - ensure 2 columns on desktop */
+.grid.md\:grid-cols-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .grid.md\:grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Card styling */
+.v-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.v-card.elevation-5 {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 
+              0 5px 8px 0 rgba(0, 0, 0, 0.14), 
+              0 1px 14px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Card title styling */
+.v-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem 1.5rem 0.5rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Card text/content area */
+.v-card-text {
+  padding: 1.5rem;
+}
+
+/* Card actions area */
+.v-card-actions {
+  padding: 0.5rem 1.5rem 1.5rem;
+}
+
+/* Button styling */
+.v-btn {
+  text-transform: none;
+  font-weight: 500;
+  letter-spacing: 0.0892857143em;
+  font-size: 0.875rem;
+  min-width: 64px;
+  padding: 0 16px;
+}
+
+.v-btn.bg-info {
+  background-color: rgb(33, 150, 243) !important;
+  color: white !important;
+}
+
+.v-btn.text-info {
+  color: rgb(33, 150, 243) !important;
+}
+
+/* Input fields */
+.v-text-field .v-field {
+  border-radius: 4px;
+}
+
+.v-field--variant-outlined .v-field__outline {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+/* Element UI date/time pickers */
+.el-input {
+  width: 100%;
+}
+
+.el-input__wrapper {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+  border-radius: 4px;
+  padding: 8px 12px;
+  transition: all 0.3s;
+}
+
+.el-input__wrapper:hover {
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+.el-input__inner {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Element UI select dropdown */
+.el-select__wrapper {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+  border-radius: 4px;
+  padding: 8px 12px;
+  transition: all 0.3s;
+}
+
+.el-select__wrapper:hover {
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Links card at bottom - ensure proper width */
+.v-card[style*="max-width: 700px"] {
+  max-width: 700px !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+}
+
+/* Flex layout for link buttons */
+.flex.flex-col.gap-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.flex.flex-row.gap-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+/* Button link styling */
+a.v-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .v-card.mx-auto {
+    padding: 1.5rem;
+  }
+  
+  .v-card-title {
+    font-size: 1.125rem;
+  }
+  
+  .flex.flex-row.gap-2 {
+    flex-direction: column;
+  }
+  
+  .v-btn.w-1\/2 {
+    width: 100% !important;
+  }
+}
+
+/* Ensure proper spacing */
+.gap-5 {
+  gap: 1.25rem;
+}
+
+/* Width utilities */
+.w-full {
+  width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* Text utilities */
+.text-center {
+  text-align: center;
+}
+
+.break-words {
+  word-break: break-word;
+}
+
+.text-wrap {
+  text-wrap: wrap;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+/* Margin utilities */
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
