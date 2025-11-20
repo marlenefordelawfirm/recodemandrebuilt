@@ -1,6 +1,6 @@
-# RECO Demand Rebuilt
+# Fordelaw Webinar Launcher
 
-This repo hosts the Express API and static client assets that power the RECO Demand webinar builder. The backend proxies to the HighLevel (LeadConnector) API so webinar details can stay in sync with HighLevel custom values, and the frontend mirrors the in-app builder experience with custom pickers for dates, times, and timezones.
+This repo hosts the Express API and static client assets that power the Fordelaw webinar launcher. The backend proxies to the HighLevel (LeadConnector) API so webinar details stay in sync with HighLevel custom values, and the frontend mirrors the in-app builder experience with custom pickers for dates, times, and timezones.
 
 ## Project structure
 
